@@ -41,7 +41,7 @@ repos:
       - id: flake8
         name: Check PEP8
         args: [
-            '--exclude=.git,__pycache__,docs,old,build,dis',
+            '--exclude=.git,__pycache__,docs,old,build,dist',
             '--ignore=E121,E123,E126,E226,E24,E704,E741,W503,W504,F401,W391,W605,E127,W505,F405',
             '--max-line-length=119',
             '--max-doc-length=119'
